@@ -1,5 +1,6 @@
 TestHelpers.commonWidgetTests( "dialog", {
 	defaults: {
+		appendTo: null,
 		autoOpen: true,
 		buttons: {},
 		closeOnEscape: true,
@@ -26,7 +27,6 @@ TestHelpers.commonWidgetTests( "dialog", {
 		stack: true,
 		title: '',
 		width: 300,
-		zIndex: 1000,
 
 		// callbacks
 		create: null

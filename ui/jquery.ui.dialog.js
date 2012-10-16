@@ -707,7 +707,7 @@ $.extend( $.ui.dialog.overlay, {
 		}
 
 		$el.height( 0 ).width( 0 ).remove();
-	},
+	}
 
 });
 
